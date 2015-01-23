@@ -1,6 +1,7 @@
 body{
-margin: 0;
-line-height: 1.5;
+	margin: 0;
+	line-height: 1.5;
+	font-family: verdana, sans-serif;
 }
 
 div#wrapper{
@@ -11,13 +12,18 @@ div#wrapper{
 }
 
 
-
-h1,h2, {
+h1, h2 {
 	font-family: Bevan, serif;
 	color: #79756f;
 }
 
+h2 a, h2 a:hover, h2 a:visited{
+	color: #79756f;
+}
 
+b{
+	color: #79756f;
+}
 
 nav ul{
 	list-style-type: none;
@@ -36,6 +42,7 @@ dl dt{
 blockquote{
 	font-size:1.5rem;
 	font-style:italic;
+	font-family: normal;
 }
 
 
@@ -55,6 +62,6 @@ a:hover{
 }
 
 a:visited{
-	color:white;
+	color: white;
 }
 
