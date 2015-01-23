@@ -1,3 +1,61 @@
-body {
-	background-color red;
+body{
+margin: 0;
 }
+
+div#wrapper{
+	width:584px;
+	background-color: #dbd6cf;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+
+
+h1,h2, {
+	font-family: Bevan, serif;
+	color: #79756f;
+}
+
+p{
+	font-family: Verdana, sans-serif;
+}
+
+nav ul{
+	list-style-type: none;
+	padding: 0;
+	font-family: arial;
+}
+
+ul#roman {
+	list-style-type: lower-roman;
+}
+
+dl dt{
+	font-weight: bold;
+}
+
+blockquote{
+	font-size:1.5rem;
+	font-style:italic;
+}
+
+
+#neil{
+	text-align: right;
+	font-size: .5rem;
+	color: #79756f;
+}
+
+a{
+	color: #713837;
+	text-decoration: none;
+}
+
+a:hover{
+	color: red;
+}
+
+a:visited{
+	color:white;
+}
+
