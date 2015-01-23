@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	line-height: 1.5;
-	font-family: verdana, sans-serif;
+	font-family: tahoma, sans-serif;
 }
 
 div#wrapper{
@@ -11,6 +11,10 @@ div#wrapper{
 	padding: 10px;
 }
 
+figcaption{
+	font-size:.8rem;
+	font-style: italic;
+}
 
 h1, h2 {
 	font-family: Bevan, serif;
@@ -55,7 +59,6 @@ blockquote{
 	font-style:italic;
 	font-family: normal;
 }
-
 
 #neil{
 	text-align: right;
